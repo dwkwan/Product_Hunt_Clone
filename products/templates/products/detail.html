@@ -1,7 +1,7 @@
 {%extends 'base.html'%}
 
 {% block content %}
-
+<br />
 <div class="row">
     <div class="col-2">
         <img src="{{ product.icon.url }}" class="img-fluid">
@@ -10,7 +10,7 @@
         <a href="{{ product.url }}"> <h1> {{ product.title }}</h1> </a>
     </div>
 </div>
-
+<br />
 <div class="row">
         <div class="col-8">
             <img src="{{ product.image.url }}" class="img-fluid">
@@ -19,7 +19,7 @@
             <a href="javascript:{document.getElementById('upvote').submit()}"><button class="btn btn-primary btn-large btn-block"><span class="oi oi-caret-top"></span> Upvote {{ product.votes_total }}</button> </a>
         </div>
     </div>
-
+    <br />
     <div class="row">
             <div class="col-4">
                 <h4><span class="oi oi-magnifying-glass"></span> Hunted by {{ product.hunter.username}}</h4>
@@ -28,7 +28,7 @@
                 <h4> <span class="oi oi-calendar"></span> {{ product.pub_date_pretty }} </h4>
             </div>
         </div>
-
+        <br />
         <div class="row">
                 <div class="col-8">
                     <p> {{ product.body }} </p>
