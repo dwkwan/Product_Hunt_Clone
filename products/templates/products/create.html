@@ -1,3 +1,4 @@
+
 {%extends 'base.html'%}
 
 {% block content %}
@@ -8,15 +9,16 @@
 <br />    
 <br />    
 {% endif %}
-
-<h1>Create</h1>
+<br />
+<h1>Submit Product</h1>
 <form method="POST" action="{% url 'create' %}" enctype="multipart/form-data">
 {% csrf_token %}
-Title:
+Product:
 <br />
 <input type="text" name="title" />
 <br />
-Body:
+<br />
+Description:
 <br />
 <input type="textbox" name="body" />
 <br />
@@ -25,9 +27,11 @@ URL:
 <br />
 <input type="text" name="url" />
 <br />
+<br />
 Icon:
 <br />
 <input type="file" name="icon" />
+<br />
 <br />
 Image:
 <br />
