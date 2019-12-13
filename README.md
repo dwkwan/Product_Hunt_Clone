@@ -38,9 +38,17 @@ To use the site, visit bit.ly/productpunt. To install it, simply clone this repo
 
 A user may sign up for an account. Upon logging in, they may submit products to be put on the web site and upvote products that other users have submitted. In addition, a user may logout.
 
-# ![signup](https://imgur.com/LjWUvXZ)
-# ![login](https://imgur.com/gxHvvR4)
-# ![logout](https://imgur.com/pKPHelJ)
+Sign up: 
+
+# ![signup](https://imgur.com/LjWUvXZ.png)
+
+Login:
+
+# ![login](https://imgur.com/gxHvvR4.png)
+
+Logout:
+
+# ![logout](https://imgur.com/pKPHelJ.png)
 
 ### **Product Details**
 
@@ -57,9 +65,12 @@ A logged-in user can visit the "Create" page to submit a product by providing th
 
 ### **Product Upvoting**
 
-A logged-in user can upvote a product from the homepage or when viewing the details for a product.
+A logged-in user can upvote a product from the homepage:
 
 # ![product-upvoting-home](https://imgur.com/uuTSZl5.png)
+
+A logged-in user can also upvote a product from the product details page:
+
 # ![product-upvoting-details](https://imgur.com/XRQOaB3.png)
 
 
