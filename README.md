@@ -1,3 +1,5 @@
+# ![Logo](https://imgur.com/pS5dKmr.png)
+
 This is a basic clone of the web application Product Hunt. Like Product Hunt, it allows people to view details about tech products including descriptions of them and how popular they are (based on user upvoting). Upon logging in, a user may submit a new product to be displayed on the web application and upvote tech products that others have added.
 
 ## Inspiration
@@ -9,4 +11,10 @@ As someone new to the Django web framework, I wanted to create a web application
 ### Tools
 
 # ![Tools](https://imgur.com/wWF1Xac.png)
+
+# ![Architecture](https://imgur.com/TagTPFC.png)
+
+## Getting Started
+
+To use the site, visit bit.ly/productpunt. To install it, simply clone this repository. You can start the app by running `python manage.py runserver` within the project root directory. Please refer to `requirements.txt` for dependencies.
 
