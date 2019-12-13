@@ -18,3 +18,29 @@ As someone new to the Django web framework, I wanted to create a web application
 
 To use the site, visit bit.ly/productpunt. To install it, simply clone this repository. You can start the app by running `python manage.py runserver` within the project root directory. Please refer to `requirements.txt` for dependencies.
 
+## Features
+
+### **Sign Up / Login / Logout**
+
+A user may sign up for an account. Upon logging in, they may submit products to be put on the web site and upvote products that other users have submitted. In addition, a user may logout.
+
+### **Product Details**
+
+A user may select a product from the homepage to view details about it including who submitted it ("Hunted By"), the date it was submitted, and a brief description of the product.
+
+### **Product Submission**
+
+A logged-in user can visit the "Create" page to submit a product by providing the necessary details (shown below).
+
+### **Product Upvoting**
+
+A logged-in user can upvote a product from the homepage or when viewing the details for a product.
+
+## Future
+
+Beyond this basic clone, I would like to add additional features that are part of the actual Product Hunt web application including enabling product reviews and displaying product related to the one currently being viewed. Please let me know if you have any feedback.
+
+## Attributions
+
+Shout-out to [Nick Walter](https://www.udemy.com/user/nicholaswalter2/) for guiding me in creating this web application.
+
