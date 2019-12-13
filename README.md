@@ -4,7 +4,7 @@ This is a basic clone of the web application Product Hunt. Like Product Hunt, it
 
 ## Inspiration
 
-As someone new to the Django web framework, I wanted to create a web application that would help me understand the basics. I created this app based on ![Nick Walter's Udemy course](https://www.udemy.com/course/the-ultimate-beginners-guide-to-django-django-2-python-web-dev-website). This project helped me understand how to cohesively design URLs, write views, and design templates.
+As someone new to the Django web framework, I wanted to create a web application that would help me understand the basics. I created this app based on [Nick Walter's Udemy course](https://www.udemy.com/course/the-ultimate-beginners-guide-to-django-django-2-python-web-dev-website/). This project helped me understand how to design URLs, write views, and design templates.
 
 ## Built With
 
@@ -42,5 +42,5 @@ Beyond this basic clone, I would like to add additional features that are part o
 
 ## Attributions
 
-Shout-out to [Nick Walter](https://www.udemy.com/user/nicholaswalter2/) for guiding me in creating this web application.
+Shout-out to [Nick Walter](https://www.udemy.com/user/nicholaswalter2/) for guiding me in creating this web application via his Udemy course.
 
